@@ -22,7 +22,7 @@ refs = {
 
 }
 console.log(refs)
-const fp = flatpickr(refs.inputDateEl, options);
+const fp = flatpickr('#datetime-picker', options);
 refs.start.setAttribute('disabled', 'disabled');
 let timeId = null;
 const INTERVAL = 1000;
